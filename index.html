@@ -1,76 +1,83 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>متجر صدام للخدمات الرقمية</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
-
+  <title>متجر صدام</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-  <h1>🔥 متجر صدام للخدمات الرقمية</h1>
-  <p>شحن ألعاب • منتجات رقمية • إنشاء مواقع</p>
-
-  <div class="controls">
-    <button onclick="toggleTheme()">🌙</button>
-    <button onclick="toggleLang()">🌐</button>
-  </div>
+<header class="navbar">
+  <div class="logo">🎮 متجر صدام</div>
+  <nav>
+    <a href="#products">المنتجات</a>
+    <a href="#topup">شحن الألعاب</a>
+    <a href="#bot">البوت</a>
+    <a href="#bio">البايو</a>
+  </nav>
 </header>
 
-<section>
-  <h2>🕹️ شحن الألعاب</h2>
-  <ul>
-    <li>PUBG Mobile – شدات</li>
-    <li>Free Fire – جواهر</li>
-    <li>eFootball – عملات</li>
-    <li>TikTok Coins</li>
-  </ul>
+<section class="hero">
+  <span class="badge">⚡ Gaming Hub</span>
+  <h1>متجر صدام</h1>
+  <p>
+    وجهتك الأولى لشحن الألعاب والمنتجات الرقمية  
+    <br>
+    خدمة سريعة – موثوقة – تعمل 24/7
+  </p>
+
+  <div class="hero-buttons">
+    <a class="btn whatsapp" href="https://wa.me/message/REDKIHRAVCUEB1" target="_blank">
+      📲 الطلب عبر واتساب
+    </a>
+    <a class="btn tiktok" href="https://www.tiktok.com/@saddam33000" target="_blank">
+      🎵 تابعنا على تيك توك
+    </a>
+  </div>
 </section>
 
-<section>
-  <h2>📱 تطبيقات واشتراكات</h2>
+<section id="products" class="section">
+  <h2>🛒 المنتجات الرقمية</h2>
   <ul>
     <li>Netflix</li>
     <li>Google Play</li>
     <li>Apple Store</li>
-    <li>تطبيقات أخرى</li>
+    <li>اشتراكات تطبيقات</li>
   </ul>
 </section>
 
-<section>
-  <h2>🌐 إنشاء المواقع</h2>
+<section id="topup" class="section">
+  <h2>🕹️ شحن الألعاب</h2>
   <ul>
-    <li>مواقع شخصية</li>
-    <li>صفحات هبوط</li>
-    <li>متاجر إلكترونية</li>
+    <li>PUBG Mobile</li>
+    <li>Free Fire</li>
+    <li>eFootball</li>
+    <li>TikTok Coins</li>
   </ul>
 </section>
 
-<section>
-  <h2>📞 تواصل معنا</h2>
-  <a href="https://wa.me/message/REDKIHRAVCUEB1" target="_blank">📲 واتساب</a>
-  <a href="https://t.me/Saddammed" target="_blank">💬 تيليجرام</a>
+<section id="bot" class="section">
+  <h2>🤖 بوت تيليجرام</h2>
+  <p>للطلب السريع والتلقائي عبر البوت</p>
+  <a class="btn bot" href="https://t.me/Saddammed" target="_blank">
+    فتح البوت
+  </a>
 </section>
 
-<section>
-  <h2>📢 تابعنا</h2>
-  <a href="https://whatsapp.com/channel/0029Vb74xLN1yT2ArsVMwS2B" target="_blank">🟢 قناة واتساب</a>
-  <a href="https://t.me/Online_store485353" target="_blank">🔵 قناة تيليجرام</a>
-</section>
-
-<section>
-  <h2>🌍 منصاتنا</h2>
-  <a href="https://www.tiktok.com/@saddam33000" target="_blank">🎵 تيك توك</a>
-  <a href="https://www.facebook.com/share/17hWP9gCDd/" target="_blank">📘 فيسبوك</a>
+<section id="bio" class="section">
+  <h2>📢 تواصل معنا</h2>
+  <div class="links">
+    <a href="https://t.me/Online_store485353" target="_blank">🔵 قناة تيليجرام</a>
+    <a href="https://whatsapp.com/channel/0029Vb74xLN1yT2ArsVMwS2B" target="_blank">🟢 قناة واتساب</a>
+    <a href="https://www.facebook.com/share/17hWP9gCDd/" target="_blank">📘 فيسبوك</a>
+  </div>
 </section>
 
 <footer>
-  <p>© متجر صدام 2026</p>
+  © 2026 متجر صدام – جميع الحقوق محفوظة
 </footer>
 
 <script src="script.js"></script>
